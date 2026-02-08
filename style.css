@@ -1,0 +1,100 @@
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background: #0f0f14;
+  color: #ffffff;
+  line-height: 1.6;
+}
+
+.hero {
+  text-align: center;
+  padding: 100px 20px;
+  background: linear-gradient(135deg, #141421, #1f1f2e);
+}
+
+.hero h1 {
+  font-size: 3rem;
+  margin-bottom: 10px;
+  color: #7c5cff;
+}
+
+.tagline {
+  font-size: 1.3rem;
+  color: #bbbbff;
+}
+
+.intro {
+  margin-top: 15px;
+  font-size: 1rem;
+  color: #ccc;
+}
+
+.section {
+  padding: 60px 20px;
+  max-width: 900px;
+  margin: auto;
+}
+
+.section h2 {
+  color: #7c5cff;
+  margin-bottom: 20px;
+  border-bottom: 2px solid #7c5cff;
+  display: inline-block;
+}
+
+.project {
+  background: #1a1a26;
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 10px;
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.project:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 0 15px #7c5cff;
+}
+
+.skills {
+  display: flex;
+  gap: 50px;
+  flex-wrap: wrap;
+}
+
+ul {
+  padding-left: 20px;
+}
+
+.contact {
+  text-align: center;
+  padding-bottom: 80px;
+}
+
+.contact-bar {
+  text-align: center;
+  background: #141421;
+  padding: 15px;
+  font-size: 0.9rem;
+}
+
+.contact-bar a {
+  color: #7c5cff;
+  text-decoration: none;
+}
+
+.btn {
+  display: inline-block;
+  margin-top: 10px;
+  padding: 8px 14px;
+  background: #7c5cff;
+  color: white;
+  text-decoration: none;
+  border-radius: 6px;
+  font-size: 0.9rem;
+  transition: 0.2s;
+}
+
+.btn:hover {
+  background: #9b85ff;
+  transform: scale(1.05);
+}
